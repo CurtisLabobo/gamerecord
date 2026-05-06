@@ -5,7 +5,7 @@ const gameHighlights = [
         opponent: "aaryrajsingh",
         rating: 1489,
         format: "rapid",
-        date: "2024-05-05",
+        date: "2026-05-05",
         link: "https://www.chess.com/analysis/game/live/168300004254/review"
     }
 ];
