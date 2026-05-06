@@ -1,0 +1,21 @@
+{
+  "name": "game-record-tracker",
+  "version": "1.0.0",
+  "description": "A dark-themed web application for tracking and managing chess game records",
+  "main": "index.html",
+  "scripts": {
+    "start": "open index.html"
+  },
+  "keywords": [
+    "chess",
+    "game-tracker",
+    "dark-theme",
+    "game-records"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/gamerecord"
+  }
+}

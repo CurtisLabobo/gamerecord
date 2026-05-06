@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Highlights</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1>♟️ Game Highlights</h1>
+                <p>King Labobo</p>
+            </div>
+        </header>
+
+        <!-- Search & Filter -->
+        <div class="controls">
+            <input 
+                type="text" 
+                id="searchInput" 
+                class="search-box" 
+                placeholder="Search by opponent..."
+            >
+        </div>
+
+        <!-- Games Table -->
+        <div class="table-wrapper">
+            <table class="games-table" id="gamesTable">
+                <thead>
+                    <tr>
+                        <th>Opponent</th>
+                        <th>Rating</th>
+                        <th>Format</th>
+                        <th>Date</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+                <tbody id="gamesBody">
+                </tbody>
+            </table>
+            <div class="empty-state" id="emptyState" style="display: none;">
+                <p>No games found.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

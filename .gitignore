@@ -1,0 +1,20 @@
+# Node modules (if using any build tools in future)
+node_modules/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Environment
+.env
+.env.local
