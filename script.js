@@ -7,6 +7,13 @@ const gameHighlights = [
         format: "rapid",
         date: "2026-05-05",
         link: "https://www.chess.com/analysis/game/live/168300004254/review"
+    },
+    {
+        opponent: "Blitz-Sac",
+        rating: 1307,
+        format: "rapid",
+        date: "2026-05-06",
+        link: "https://www.chess.com/analysis/game/live/168345259334/review"
     }
 ];
 
